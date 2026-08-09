@@ -1,0 +1,49 @@
+<svg viewBox="0 0 1200 760" width="100%" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>普通周报 vs 领导版周报对比</title>
+<desc>左侧是只罗列事的普通周报，右侧是领导视角结构化周报</desc>
+<rect width="1200" height="760" fill="#FAFAF8"/>
+<text x="60" y="56" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="30" font-weight="600" fill="#2C2C2A">普通周报 vs 领导版周报</text>
+<text x="60" y="86" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#5F5E5A">同一份流水账，两种写法。右边能让领导 30 秒读懂全局。</text>
+
+<g>
+<rect x="60" y="120" width="500" height="560" rx="16" fill="#F1EFE8" stroke="#D3D1C7" stroke-width="1"/>
+<text x="90" y="160" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="600" fill="#5F5E5A">普通版（流水账）</text>
+<line x1="90" y1="180" x2="530" y2="180" stroke="#D3D1C7" stroke-width="1"/>
+<text x="90" y="220" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#888780">✗ 没有项目背景，领导不知道前因后果</text>
+<text x="90" y="262" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#888780">✗ 没有进度位置，不知道离终点多远</text>
+<text x="90" y="304" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#888780">✗ 没有风险，有雷也不说</text>
+<text x="90" y="346" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#888780">✗ 没有思考，看不出你的价值</text>
+<text x="90" y="388" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#888780">✗ 领导读完全靠猜</text>
+<rect x="90" y="420" width="440" height="230" rx="12" fill="#FFFFFF" stroke="#D3D1C7" stroke-width="1"/>
+<text x="120" y="460" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" fill="#444441">这周工作内容：</text>
+<text x="120" y="494" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#888780">1. 改了官网首页 banner</text>
+<text x="120" y="526" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#888780">2. 跟供应商对了一下账</text>
+<text x="120" y="558" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#888780">3. 帮销售整理客户名单</text>
+<text x="120" y="590" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#888780">4. 跟进了 A 客户合同</text>
+<text x="120" y="622" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#888780">5. 写了份活动方案</text>
+</g>
+
+<g>
+<rect x="640" y="120" width="500" height="560" rx="16" fill="#FCEBEB" stroke="#F09595" stroke-width="1.5"/>
+<text x="670" y="160" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="600" fill="#A32D2D">领导版（项目仪表盘）</text>
+<line x1="670" y1="180" x2="1110" y2="180" stroke="#F09595" stroke-width="1"/>
+<text x="670" y="215" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#791F1F">【领导速览】官网改版推进到 70%；供应商对账发现</text>
+<text x="670" y="241" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="600" fill="#791F1F">税率差异待确认；A 客户卡在付款条款，下周再谈。</text>
+<rect x="670" y="268" width="440" height="105" rx="10" fill="#FFFFFF" stroke="#F09595" stroke-width="1"/>
+<text x="700" y="296" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="600" fill="#A32D2D">官网改版（当前 70%，本周 60%→70%）</text>
+<text x="700" y="324" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#444441">背景：承接投放流量，目标提升留资转化</text>
+<text x="700" y="350" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#444441">风险：数据报表缺两块数据，依赖技术埋点</text>
+<text x="700" y="376" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#444441">思考：banner 测试建议跑满两周再下结论</text>
+<rect x="670" y="390" width="440" height="105" rx="10" fill="#FFFFFF" stroke="#F09595" stroke-width="1"/>
+<text x="700" y="418" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="600" fill="#A32D2D">销售支持（持续）</text>
+<text x="700" y="446" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#444441">风险：A 客户要求 30 天账期 vs 公司预付政策</text>
+<text x="700" y="472" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#444441">下周：与客户再谈一次，明确能否折中</text>
+<text x="700" y="498" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#444441">思考：建议账期有限让步换长期合作，需领导授权</text>
+<rect x="670" y="512" width="440" height="60" rx="10" fill="#F7C1C1" stroke="#F09595" stroke-width="1"/>
+<text x="700" y="540" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="600" fill="#791F1F">需要领导支持</text>
+<text x="700" y="562" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="14" fill="#501313">A 客户付款条款需授权边界；供应商对账请财务复核</text>
+<text x="670" y="600" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#A32D2D">✓ 领导 30 秒读完，直接拍板</text>
+<text x="670" y="630" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#A32D2D">✓ 每个字都有出处，没有一句编造</text>
+<text x="670" y="660" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="15" fill="#A32D2D">✓ 你的判断和决策点，主动摆到台面</text>
+</g>
+</svg>
