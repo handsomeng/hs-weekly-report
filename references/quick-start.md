@@ -6,15 +6,21 @@
 
 ## 方法一：安装到电脑（推荐，长期用）
 
-**Mac 用户**：打开「终端」App，粘贴这一行，回车：
+对你的 AI 说一句话：
+
+```
+帮我安装 hs-weekly-report 这个 skill
+```
+
+装完直接说「帮我写周报」就能触发。
+
+**如果 AI 找不到**，用备用方式：Mac 打开「终端」App，粘贴这一行回车：
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/handsomeng/hs-weekly-report/main/install.sh | bash
 ```
 
-**Windows / 其他系统**：打开 [GitHub 仓库](https://github.com/handsomeng/hs-weekly-report)，点 `Code` → `Download ZIP`，解压后把文件夹放进你电脑的 skills 目录（WorkBuddy 用户是 `~/.workbuddy/skills/`）。
-
-装完后，对你的 AI 直接说「帮我写周报」就能触发，不用记任何操作。
+其他系统：打开 [GitHub 仓库](https://github.com/handsomeng/hs-weekly-report)，点 `Code` → `Download ZIP`，解压后把文件夹放进你电脑的 skills 目录（WorkBuddy 用户是 `~/.workbuddy/skills/`）。
 
 ## 方法二：不安装，直接发给 AI（试一下用这个）
 

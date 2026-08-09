@@ -39,29 +39,35 @@
 - 主动把决策点摆出来
 ```
 
-## 安装与使用
+## 安装（最快方式）
 
-### 方式一：一键安装（Mac 用户，推荐）
+对你的 AI 说一句话：
 
-打开电脑自带的「终端」App，粘贴这一行，回车：
+```
+帮我安装 hs-weekly-report 这个 skill
+```
+
+或：
+
+```
+帮我找个写周报的 skill，装一下
+```
+
+AI 会自动从注册表搜索并装好。装完直接说「帮我写周报」就能用。
+
+### 备用：手动安装
+
+- **Mac 终端一条命令**：
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/handsomeng/hs-weekly-report/main/install.sh | bash
 ```
 
-装完直接对你的 AI 说「帮我写周报」就能用。
+- **全部系统通用**：打开 [GitHub 仓库](https://github.com/handsomeng/hs-weekly-report) → 绿色 `Code` 按钮 → `Download ZIP` → 解压后把文件夹放进你电脑的 skills 目录（WorkBuddy 用户是 `~/.workbuddy/skills/`）。
 
-### 方式二：手动安装（所有系统通用）
+### 不安装直接用（试一下）
 
-1. 打开 [GitHub 仓库](https://github.com/handsomeng/hs-weekly-report)，点绿色 `Code` 按钮 → `Download ZIP`
-2. 解压后，把里面的文件夹整个放进你电脑的 skills 目录：
-   - WorkBuddy 用户：`~/.workbuddy/skills/`
-   - 其他客户端：放到对应的 skills 文件夹即可
-3. 装完对你的 AI 说「帮我写周报」
-
-### 方式三：任意 AI 对话工具（不安装直接用）
-
-复制 `references/quick-start.md` 里那段话，把"我这周干的事"换成你的内容，发给任意 AI 对话框（豆包 / DeepSeek / 通义 / ChatGPT 等均可），3 分钟出一份周报。不需要安装任何东西。
+复制 `references/quick-start.md` 里那段话，发给任意 AI，3 分钟出一份周报，不需要装任何东西。
 
 ## 项目结构
 
