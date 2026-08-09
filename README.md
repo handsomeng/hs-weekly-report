@@ -41,28 +41,38 @@
 
 ## 安装与使用
 
-### 方式一：WorkBuddy / 支持 Skill 的 AI 客户端
+### 方式一：一键安装（Mac 用户，推荐）
 
-将本项目放入你的 skills 目录：
+打开电脑自带的「终端」App，粘贴这一行，回车：
 
 ```bash
-# 用户级（推荐，所有项目可用）
-cp -r hs-weekly-report ~/.workbuddy/skills/
+curl -fsSL https://raw.githubusercontent.com/handsomeng/hs-weekly-report/main/install.sh | bash
 ```
 
-之后直接说"帮我写周报"或"把这段流水账升级成周报"，即可触发。
+装完直接对你的 AI 说「帮我写周报」就能用。
 
-### 方式二：任意 AI 对话工具
+### 方式二：手动安装（所有系统通用）
 
-复制 `references/prompt-template.md` 整段内容到任意 AI 对话框（Kimi / DeepSeek / 豆包 / ChatGPT 等均可），按提示回答 3 到 4 轮即可。
+1. 打开 [GitHub 仓库](https://github.com/handsomeng/hs-weekly-report)，点绿色 `Code` 按钮 → `Download ZIP`
+2. 解压后，把里面的文件夹整个放进你电脑的 skills 目录：
+   - WorkBuddy 用户：`~/.workbuddy/skills/`
+   - 其他客户端：放到对应的 skills 文件夹即可
+3. 装完对你的 AI 说「帮我写周报」
+
+### 方式三：任意 AI 对话工具（不安装直接用）
+
+复制 `references/quick-start.md` 里那段话，把"我这周干的事"换成你的内容，发给任意 AI 对话框（豆包 / DeepSeek / 通义 / ChatGPT 等均可），3 分钟出一份周报。不需要安装任何东西。
 
 ## 项目结构
 
 ```
 hs-weekly-report/
 ├── SKILL.md                          # Skill 定义与四步流程
+├── install.sh                        # 一键安装脚本
+├── assets/demo.svg                   # 对比演示图
 └── references/
-    ├── prompt-template.md            # 可分发 Prompt 模板（方式二用）
+    ├── quick-start.md                # 快速开始：安装指引 + 一句话用法
+    ├── prompt-template.md            # 完整 Prompt 模板
     └── example.md                    # 完整流程演示（流水账 → 领导版周报）
 ```
 
